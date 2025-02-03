@@ -1,0 +1,6 @@
+Scrivere una applicazione  per calcolare il pagamento in un'applicazione che supporta diverse modalità di pagamento (per esempio: pagamento tramite carta di credito, pagamento tramite PayPal, pagamento tramite bonifico bancario).
+
+Passaggi:
+Creiamo un'interfaccia PaymentStrategy che definisce un metodo pay().
+Creiamo diverse classi che implementano questa interfaccia (come CreditCardPayment, PayPalPayment, ecc.).
+Creiamo una classe ShoppingCart che utilizza un oggetto PaymentStrategy per eseguire il pagamento.
